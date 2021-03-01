@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {
-  background-color: #222222;
+  font-style: "Georgia";
 }
 
 nav {
@@ -13,10 +12,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   min-height: 8vh;
-  -webkit-box-shadow: 0 3px 5px #3b3b3b;
-          box-shadow: 0 3px 5px #3b3b3b;
-  color: white;
-  font-family: "Poppins", sans-serif;
 }
 
 nav h4 {
@@ -40,10 +35,8 @@ nav h4 {
 }
 
 .nav-links a {
-  color: #f7f7f7;
   text-decoration: none;
   letter-spacing: 3px;
-  font-weight: bold;
   font-size: 14px;
 }
 
