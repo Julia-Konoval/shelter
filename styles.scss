@@ -1,13 +1,37 @@
-body{
+body {
   font-style: "Georgia";
+}
+.logo {
+  h2 {
+    margin-bottom: 0;
+    color: #ccab89;
+    font-weight: lighter;
+  }
+  p {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}
+
+header {
+  height: 100vh;
+  min-height: 320px;
+  background: url("./images/Background.png") no-repeat center center;
+  background-size: cover, contain;
+  background-position: center center, right bottom;
+  background-blend-mode: overlay;
+  position: relative;
+  color: #f7f7f7;
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
   align-items: center;
   min-height: 8vh;
-
-  // color: white;
+  margin-bottom: 25vh;
+  
 
   h4 {
     color: #f7c948;
@@ -25,10 +49,11 @@ nav {
     list-style: none;
   }
   a {
-    // color: #f7f7f7;
+    color: #f7f7f7;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
+    font-style: 'Arial';
   }
 }
 
@@ -96,4 +121,33 @@ nav {
 
 .nav-active {
   transform: translate(0%);
+}
+.main-header-text {
+  width: 30%;
+  margin-left: 15%;
+  h1 {
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 40%;
+    margin-top: 20px;
+    background-color: #ccab89;
+    border: none;
+  }
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    height: 90vh;
+  }
 }

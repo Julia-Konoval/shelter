@@ -2,16 +2,42 @@ body {
   font-style: "Georgia";
 }
 
+.logo h2 {
+  margin-bottom: 0;
+  color: #ccab89;
+  font-weight: lighter;
+}
+
+.logo p {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+header {
+  height: 100vh;
+  min-height: 320px;
+  background: url("./images/Background.png") no-repeat center center;
+  background-size: cover, contain;
+  background-position: center center, right bottom;
+  background-blend-mode: overlay;
+  position: relative;
+  color: #f7f7f7;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   min-height: 8vh;
+  margin-bottom: 25vh;
 }
 
 nav h4 {
@@ -35,9 +61,11 @@ nav h4 {
 }
 
 .nav-links a {
+  color: #f7f7f7;
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 14px;
+  font-style: 'Arial';
 }
 
 .burger {
@@ -132,5 +160,43 @@ nav h4 {
 .nav-active {
   -webkit-transform: translate(0%);
           transform: translate(0%);
+}
+
+.main-header-text {
+  width: 30%;
+  margin-left: 15%;
+}
+
+.main-header-text h1 {
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.main-header-text p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main-header-text button {
+  border-radius: 50px;
+  padding: 10px;
+  width: 40%;
+  margin-top: 20px;
+  background-color: #ccab89;
+  border: none;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-container img {
+  height: 90vh;
 }
 /*# sourceMappingURL=styles.css.map */
