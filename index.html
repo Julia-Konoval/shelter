@@ -22,10 +22,10 @@
           <p>Shelter for pets in Boston</p>
         </div>
         <ul class="nav-links">
-          <li><a href="#">About the shelter</a></li>
-          <li><a href="#">Our pets</a></li>
-          <li><a href="#">To help the shelter</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#about">About the shelter</a></li>
+          <li><a href="#shelter">Our pets</a></li>
+          <li><a href="#help">To help the shelter</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -49,7 +49,7 @@
       </div>
     </header>
     <div class="main-part">
-      <div class="about-part">
+      <div class="about-part" id="about">
         <img src="./images/pic1.png" alt="dog and cat" />
         <span id="about-text">
           <h2>
@@ -58,9 +58,8 @@
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et. dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            eiusmod tempor  ut labore et. dolore magna aliqua. Ut enim
+            
           </p>
 
           <p>
@@ -74,7 +73,7 @@
       </div>
     
       </div>
-      <div class="wrapper">
+      <div class="wrapper" id="shelter">
         <h2>
           Our friends who<br />
           are looking for a house
@@ -103,18 +102,83 @@
             <button>Learn More</button>
           </div>
         </div>
+
+        <button class="know-the-rest">Get to know the rest</button>
       </div>
     </div>
 
-    <div class="help-section">
+    <section class="help-section" id="help">
       <h3>Than you can help <br>
       our shelter</h3>
       <div class="help-options">
+        <div class="row1">
         <div class="help-option">
-          
+          <img src="./images/icons/cat-food.png" alt="food"/>
+          <p>Pet food</p>
         </div>
+        <div class="help-option">
+          <img src="./images/icons/ambulance.png" alt="transportation"/>
+          <p>Transportation</p>
+        </div>
+      
+      <div class="help-option">
+        <img src="./images/icons/ball.png" alt="toys"/>
+        <p>Toys</p>
+      </div>
+      <div class="help-option">
+        <img src="./images/icons/bowl.png" alt="bowl"/>
+        <p>Bowls and cups</p>
+      </div>
+      <div class="help-option">
+        <img src="./images/icons/shampoo.png" alt="shampoo"/>
+        <p>Shampoos</p>
+      </div>
+        </div>
+        <div class="row2">
+      <div class="help-option">
+        <img src="./images/icons/pills.png" alt="pill"/>
+        <p>Vitamins</p>
+      </div>
+      <div class="help-option">
+        <img src="./images/icons/syringe.png" alt="medicine"/>
+        <p>Medicines</p>
+      </div>
+      <div class="help-option">
+        <img src="./images/icons/leash.png" alt="leash"/>
+        <p>Collars/ leashes</p>
+      </div>
+      <div class="help-option">
+        <img src="./images/icons/cat.png" alt="food"/>
+        <p>Sleeping area</p>
       </div>
     </div>
+    </div>
+    </section>
+    <section class="donation">
+      <div class="donation-main">
+      <img class="donation-img" src="./images/Dog.png" alt="donation-dog">
+      <div class="donation-text">
+        <h3>In addition, you can make a donation</h3>
+        <span>Name of the bank / Type of bank account</span>
+        <div class="credit-card-container"><img src="./images/icons/credit-card.png" alt="credit-card"><span>8830 2880 8028 8791 7435</span></div>
+        <p>Lorem ipsum dolor sit, a cumque cum eligendi, at nemo labore praesentium deserunt repudiandae eos molestias tempore vero tenetur?</p>
+      </div>
+    </div>
+    </section>
+    <footer id="contact">
+      <div class="footer-container">
+      <div class="footer-info-container">
+        <h3>For questions and suggestions</h3>
+        <div class="footer-info"><img src="./images/icons/envelope.png" alt="envelope"><span>email@shelter.com</span></div>
+        <div class="footer-info"><img src="./images/icons/telephone.png" alt="telephone"><span>+13 674 567 75 54</span></div>
+      </div>
+      <div class="footer-info-container">
+        <h3>We are waiting for you to visit</h3>
+        <div class="footer-info"><img src="./images/icons/pin.png" alt="pin"><span>Boston, Central Street, 1st (Entrance from the store)</span></div>
+        <div class="footer-info"><img src="./images/icons/pin.png" alt="pin"><span>London, South Park, 18st</span></div>
+      </div>
+    </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script

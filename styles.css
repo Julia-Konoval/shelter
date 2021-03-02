@@ -196,6 +196,7 @@ nav h4 {
   margin-top: 20px;
   background-color: #ccab89;
   border: none;
+  cursor: pointer;
 }
 
 .header-container {
@@ -222,7 +223,7 @@ nav h4 {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-top: 40px;
   font-family: "Arial";
@@ -282,7 +283,6 @@ h2 {
 
 .slick-slide img {
   width: 100%;
-  border: 2px solid #fff;
   height: 300px;
 }
 
@@ -322,6 +322,7 @@ h2 {
   background-color: #f2f2f2;
   padding-top: 50px;
   font-weight: lighter;
+  padding-bottom: 50px;
 }
 
 .wrapper h2 {
@@ -340,9 +341,209 @@ h2 {
   font-family: "Georgia";
 }
 
+.wrapper .learn_more_btn:hover {
+  background-color: #ccab89;
+  cursor: pointer;
+}
+
+.pet {
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
 .pet h3 {
   font-weight: 100;
   font-family: "Georgia";
   letter-spacing: 0.099em;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
+  margin: auto;
+}
+
+.help-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.help-option img {
+  width: 45px;
+}
+
+.help-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.help-section h3 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 100px 0;
+}
+
+.know-the-rest {
+  margin-top: 50px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f1cdb3;
+  cursor: pointer;
+}
+
+.help-option img {
+  height: 45px;
+}
+
+.help-option {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.help-options {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.donation {
+  background-color: #f6f6f6;
+}
+
+.donation-main {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding: 5% 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.donation-main .donation-img {
+  width: 400px;
+  height: 250px;
+}
+
+.donation-text {
+  margin-left: 46px;
+}
+
+.donation-text h3 {
+  font-family: "Georgia";
+  font-weight: 100;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.donation-text .credit-card-container {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f1cdb3;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.donation-text p {
+  margin-top: 20px;
+}
+
+footer {
+  background: url("./images/footer-dog.png") center;
+  background-size: cover;
+}
+
+footer .footer-container {
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+  margin-left: 50px;
+}
+
+footer .footer-info-container h3 {
+  color: white;
+  font-weight: 100;
+  font-family: "Georgia";
+  font-size: 30px;
+}
+
+footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c9ab96;
+}
+
+footer .footer-info img {
+  margin-right: 10px;
+}
+
+footer .footer-info span {
+  font-family: "Times New Roman", Times, serif;
 }
 /*# sourceMappingURL=styles.css.map */
