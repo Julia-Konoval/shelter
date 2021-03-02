@@ -31,7 +31,6 @@ nav {
   align-items: center;
   min-height: 8vh;
   margin-bottom: 25vh;
-  
 
   h4 {
     color: #f7c948;
@@ -44,19 +43,29 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 60%;
   li {
     list-style: none;
+    font-family: "Arial";
   }
   a {
     color: #f7f7f7;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
-    font-style: 'Arial';
+    position: relative;
+
+    &:hover::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 0;
+      left: 0;
+      bottom: -8px;
+      border-bottom: 3px solid #ccab89;
+    }
   }
 }
-
 .burger {
   display: none;
   cursor: pointer;
