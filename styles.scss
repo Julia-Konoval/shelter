@@ -113,7 +113,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #3b3b3b;
+    background-color: #2f2723;;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -416,5 +416,108 @@ footer {
     span {
       font-family: "Times New Roman", Times, serif;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    background-image: url("./images/no-dog-bg.png");
+
+    .main-header-text {
+      width: 70%;
+      margin: auto;
+    }
+
+    nav {
+      margin-bottom: 10vh;
+      padding-top: 10vh;
+    }
+  }
+
+  .about-part {
+    flex-direction: column;
+  }
+
+  #about-text {
+    width: 100%;
+  }
+  .wrapper {
+    h2 {
+      font-size: 27px;
+    }
+  }
+
+  /* styles.css | http://127.0.0.1:5500/styles.css */
+
+  .help-option img {
+    /* height: 45px; */
+    height: 25px;
+  }
+
+  .help-option img {
+    /* width: 45px; */
+    width: 25px;
+  }
+
+  /* Елемент | http://127.0.0.1:5500/ */
+
+  .row1,
+  .row2 {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .help-options {
+    width: 100%;
+  }
+
+  .row1 {
+    width: 90%;
+  }
+
+  .row2 {
+    width: 75%;
+  }
+
+  /* styles.css | http://127.0.0.1:5500/styles.css */
+
+  .help-section h3 {
+    font-size: 24px;
+    margin: 70px 0;
+  }
+
+  /* styles.css | http://127.0.0.1:5500/styles.css */
+
+  .donation-main .donation-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .donation-main {
+    flex-direction: column;
+  }
+
+  .donation-text h3 {
+    font-size: 28px;
+    margin-top: 21px;
+  }
+
+  /* styles.css | http://127.0.0.1:5500/styles.css */
+
+  footer .footer-info-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  footer .footer-container {
+    justify-content: space-between;
+  }
+
+  footer .footer-info-container h3 {
+    font-size: 22px;
+  }
+  footer .footer-info-container span {
+    font-size: 12px;
   }
 }

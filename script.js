@@ -36,15 +36,26 @@ const navSlide = () => {
 
 navSlide();
 
-$(document).ready(function () {
-  $(".carousel").slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    arrows: true,
-    prevArrow:
-      "<button type='button' class='slick-prev'></button>",
-    nextArrow:
-      "<button type='button' class='slick-next'></button>",
+if (window.matchMedia("(max-width: 768px)").matches) {
+  $(document).ready(function () {
+    $(".carousel").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      prevArrow: "<button type='button' class='slick-prev'></button>",
+      nextArrow: "<button type='button' class='slick-next'></button>",
+    });
   });
-});
+} else {
+  $(document).ready(function () {
+    $(".carousel").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      arrows: true,
+      prevArrow: "<button type='button' class='slick-prev'></button>",
+      nextArrow: "<button type='button' class='slick-next'></button>",
+    });
+  });
+}
